@@ -1,0 +1,20 @@
+#text-image-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+#wrap-text {
+    flex: 2;
+}
+
+#wrap-image {
+    flex: 1;
+}
+
+#image1 {
+    border: 1px black solid;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex: 1;
+}
+
