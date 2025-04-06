@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Research Paper Toolbox</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body class="roboto">
+        <nav>
+            <div id="nav-link-container">
+                <a id="home-icon" href="index.html"><img src="images/home.gif" alt="Square Icon of a Home Symbol" height="40px" width="40px"></a>
+                <a class="nav-links" href="index.html">Topic</a>
+                <a class="nav-links" href="research.html">Research</a>
+                <a class="nav-links" href="data.html">Data</a>
+                <a class="nav-links" href="index.html">References</a>
+                <a class="nav-links" href="index.html">Style</a>
+                <a class="nav-links" href="index.html">Layout</a>
+                <a class="nav-links" href="index.html">Modality</a>
+                <a class="nav-links" href="index.html">Professionalization</a>
+            </div>
+        </nav>
+
+        <h1 class="roboto-bold">TITLE</h1>
+        
+    </body>
+</html>

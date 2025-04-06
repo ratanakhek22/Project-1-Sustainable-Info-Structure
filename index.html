@@ -35,5 +35,34 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <h2>Adding a new module</h2>
+
+            <p class="leadin">The HTML Template file provides the base page layout for all modules. All new modules use the same style.css file which generalizes styles through this site. Adding a new module follows the follwing 2 steps:</p>
+            <ol class="list">
+                <li>
+                    <h4>Files</h4>
+                    <p>The base HTML is found <a href="Module_Template.txt" download>here</a>. If you want to have a css file for this new page spcifically, link it in the head tag.</p>
+                </li>
+                <li>
+                    <h4>Navigation</h4>
+                    <p>On all modules pages, the top nav element msut be updated to include your new module. The style should follow other links under the class "nav-links". You must update all pages to include the new link.</p>
+                </li>
+            </ol>
+
+            <p class="leadin">Every page on this site should follow the same general structure. There are a few main general structures to keep in mind when create the new page. These structures relying on premade styles in the css file linked to every page, alongside some HTML structuring.</p>
+            <ul class="list">
+                <li>
+                    <h4>Lists</h4>
+                    <p>If you have a p tag for a lead-in into your list of items, use class="leadin" on the p tag. All lists ul or ol should use the class="list". The structure only deviates on the li elements. Firstly, you can use an h4 tag followed by p tag for a header and details type structure. Otherwise just use strong if you want to have the header be same line as the details, or just use the p tag if there is no need for a header.</p>
+                </li>
+                <li>
+                    <h4>Sections and Subsections</h4>
+                    <p>All modules have a title in the form of an h1 tag. All following sections will use h2 tag for headings. Subsections will use h3 tags followed by h4 for dividing up the subsections. All subsections should use a new section element with class="subsection".</p>
+                </li>
+                <li>Other than the special cases, all elements are styled to fit the structure of the site and don't follow a specific HTML strucutre. If you want to override a style, use the addtional page specific css file you made.</li>
+            </ul>
+        </section>
     </body>
 </html>
