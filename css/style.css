@@ -16,6 +16,10 @@
         "wdth" 100; 
 }
 
+strong {
+    font-weight: 700;
+}
+
 body {
     background-color: rgb(241, 238, 212);
 }
@@ -28,43 +32,83 @@ nav {
 }
 
 section {
-    margin: 80px 7% 7%;
+    margin: 0px 7% 0px 7%;
+}
+
+.subsection {
+    margin: 10px 0px 10px 0px;
 }
 
 h1 {
-    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 30pt;
+    font-size: 40px;
 }
 
-p {
-    font-size: 14pt;
-    margin-top: 10px;
+h2 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+aside {
+    width: 30%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(228, 232, 178);
+}
+
+.leadin {
+    margin-bottom: 5px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+li>p {
     margin-bottom: 10px;
 }
 
+ol {
+    font-size: 18px;
+}
+
+.list {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+aside>p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 a {
-    font-size: 14pt;
-}
-
-#text-image-wrap {
-    display: flex;
-    gap: 40px;
-}
-
-#wrap-text {
-    flex: 2;
-}
-
-#wrap-image {
-    flex: 1;
-}
-
-#image1 {
-    border: 1px black solid;
-    margin-right: 0px;
-    margin-left: 0px;
-    flex: 1;
+    font-size: 18px;
 }
 
 #nav-link-container {
@@ -76,7 +120,7 @@ a {
     background-color: rgb(152, 127, 70);
 }
 
-#nav-links {
+.nav-links {
     flex: 1;
     margin: 0px 0px 0px 0px;
     text-align: center;
